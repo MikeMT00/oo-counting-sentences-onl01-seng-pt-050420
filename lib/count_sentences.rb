@@ -3,7 +3,7 @@ require 'pry'
 class String
 
   def sentence?
-    returns self
+    return self
   end
 
   def question?
