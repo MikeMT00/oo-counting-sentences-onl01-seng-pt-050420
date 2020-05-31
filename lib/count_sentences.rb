@@ -2,8 +2,6 @@ require 'pry'
 
 class String
 
-  class String
-
     def sentence?
       self.end_with?(".")
     end
@@ -20,4 +18,5 @@ class String
       sentence_count = self.squeeze("!")
       sentence_count.delete(" ").split(/[.!?]/).length
     end
+
   end
