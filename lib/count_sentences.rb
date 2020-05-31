@@ -5,6 +5,8 @@ class String
   def sentence?
     if self && " ."
       return true
+    elsif self != " ."
+      return false
     end
   end
 
