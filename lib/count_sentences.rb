@@ -5,8 +5,6 @@ class String
   def sentence?
     if self.split && " ."
       return true
-    elsif self != " ."
-      return false
     end
   end
 
