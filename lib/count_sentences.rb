@@ -3,7 +3,8 @@ require 'pry'
 class String
 
   def sentence?
-    self == " ."
+    if self = " ."
+      return true
   end
 
   def question?
