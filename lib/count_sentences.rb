@@ -2,8 +2,8 @@ require 'pry'
 
 class String
 
-  def sentence?
-    
+  def sentence?(' ')
+    self.true
   end
 
   def question?
@@ -17,4 +17,5 @@ class String
   def count_sentences
 
   end
+
 end
