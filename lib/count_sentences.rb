@@ -3,10 +3,10 @@ require 'pry'
 class String
 
   def sentence?
-    if self&&
-      return true
+      if self.split && " ."
+        return true
+      end
     end
-  end
 
   def question?
 
