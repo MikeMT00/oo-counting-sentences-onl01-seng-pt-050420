@@ -3,7 +3,7 @@ require 'pry'
 class String
 
   def sentence?
-    if self.split && " ."
+    if self&&
       return true
     end
   end
