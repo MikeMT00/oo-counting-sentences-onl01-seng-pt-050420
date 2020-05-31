@@ -5,6 +5,7 @@ class String
   def sentence?
     if self = " ."
       return true
+    end
   end
 
   def question?
