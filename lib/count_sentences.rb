@@ -4,6 +4,7 @@ class String
 
   def sentence?
     if ' ' == " . " 
+    end
   end
 
   def question?
